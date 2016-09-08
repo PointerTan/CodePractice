@@ -14,6 +14,7 @@
 		26C6A6181D81B655004C5955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C6A6161D81B655004C5955 /* LaunchScreen.storyboard */; };
 		26C6A6231D81B656004C5955 /* CodePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C6A6221D81B656004C5955 /* CodePracticeTests.swift */; };
 		26C6A62E1D81B656004C5955 /* CodePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C6A62D1D81B656004C5955 /* CodePracticeUITests.swift */; };
+		26C6A6421D81B88D004C5955 /* MainC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C6A6411D81B88D004C5955 /* MainC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		26C6A6291D81B656004C5955 /* CodePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C6A62D1D81B656004C5955 /* CodePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePracticeUITests.swift; sourceTree = "<group>"; };
 		26C6A62F1D81B656004C5955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C6A63B1D81B816004C5955 /* CodePractice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodePractice-Bridging-Header.h"; sourceTree = "<group>"; };
+		26C6A6401D81B88D004C5955 /* MainC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainC.h; sourceTree = "<group>"; };
+		26C6A6411D81B88D004C5955 /* MainC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		26C6A60C1D81B655004C5955 /* CodePractice */ = {
 			isa = PBXGroup;
 			children = (
+				26C6A63F1D81B88D004C5955 /* C-lang */,
 				26C6A60D1D81B655004C5955 /* AppDelegate.swift */,
 				26C6A60F1D81B655004C5955 /* ViewController.swift */,
 				26C6A6111D81B655004C5955 /* Main.storyboard */,
 				26C6A6141D81B655004C5955 /* Assets.xcassets */,
 				26C6A6161D81B655004C5955 /* LaunchScreen.storyboard */,
 				26C6A6191D81B655004C5955 /* Info.plist */,
+				26C6A63B1D81B816004C5955 /* CodePractice-Bridging-Header.h */,
 			);
 			path = CodePractice;
 			sourceTree = "<group>";
@@ -123,6 +129,15 @@
 				26C6A62F1D81B656004C5955 /* Info.plist */,
 			);
 			path = CodePracticeUITests;
+			sourceTree = "<group>";
+		};
+		26C6A63F1D81B88D004C5955 /* C-lang */ = {
+			isa = PBXGroup;
+			children = (
+				26C6A6401D81B88D004C5955 /* MainC.h */,
+				26C6A6411D81B88D004C5955 /* MainC.m */,
+			);
+			path = "C-lang";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C6A6421D81B88D004C5955 /* MainC.m in Sources */,
 				26C6A6101D81B655004C5955 /* ViewController.swift in Sources */,
 				26C6A60E1D81B655004C5955 /* AppDelegate.swift in Sources */,
 			);
@@ -401,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CodePractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abc.pointertan.CodePractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CodePractice/CodePractice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CodePractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abc.pointertan.CodePractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CodePractice/CodePractice-Bridging-Header.h";
 			};
 			name = Release;
 		};
