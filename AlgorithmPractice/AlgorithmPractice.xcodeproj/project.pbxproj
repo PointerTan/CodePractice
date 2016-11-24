@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		261A655F1DD9FC800084AB60 /* AreasOnTheCrossSectionDiagram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261A655D1DD9FC800084AB60 /* AreasOnTheCrossSectionDiagram.cpp */; };
+		26417F611DE7302700CABFCC /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26417F5F1DE7302700CABFCC /* MergeSort.cpp */; };
 		265E7FD51DD0C619005CCBAF /* BoublyLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 265E7FD31DD0C619005CCBAF /* BoublyLinkedList.cpp */; };
 		265F0D521DCB7B670020AA1B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 265F0D511DCB7B670020AA1B /* main.mm */; };
 		265F0D591DCB7B880020AA1B /* AlgorithmPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 265F0D581DCB7B880020AA1B /* AlgorithmPractice.cpp */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		261A655D1DD9FC800084AB60 /* AreasOnTheCrossSectionDiagram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AreasOnTheCrossSectionDiagram.cpp; sourceTree = "<group>"; };
 		261A655E1DD9FC800084AB60 /* AreasOnTheCrossSectionDiagram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AreasOnTheCrossSectionDiagram.hpp; sourceTree = "<group>"; };
+		26417F5F1DE7302700CABFCC /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		26417F601DE7302700CABFCC /* MergeSort.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
 		265E7FD31DD0C619005CCBAF /* BoublyLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoublyLinkedList.cpp; sourceTree = "<group>"; };
 		265E7FD41DD0C619005CCBAF /* BoublyLinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BoublyLinkedList.hpp; sourceTree = "<group>"; };
 		265F0D4E1DCB7B670020AA1B /* AlgorithmPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmPractice; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +76,8 @@
 				265E7FD31DD0C619005CCBAF /* BoublyLinkedList.cpp */,
 				261A655E1DD9FC800084AB60 /* AreasOnTheCrossSectionDiagram.hpp */,
 				261A655D1DD9FC800084AB60 /* AreasOnTheCrossSectionDiagram.cpp */,
+				26417F601DE7302700CABFCC /* MergeSort.hpp */,
+				26417F5F1DE7302700CABFCC /* MergeSort.cpp */,
 			);
 			path = AlgorithmPractice;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 				261A655F1DD9FC800084AB60 /* AreasOnTheCrossSectionDiagram.cpp in Sources */,
 				265F0D521DCB7B670020AA1B /* main.mm in Sources */,
 				265F0D591DCB7B880020AA1B /* AlgorithmPractice.cpp in Sources */,
+				26417F611DE7302700CABFCC /* MergeSort.cpp in Sources */,
 				265E7FD51DD0C619005CCBAF /* BoublyLinkedList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
