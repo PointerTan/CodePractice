@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "NumberTriangle.h"
+#include "NumberTriangleTwo.hpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    NumberTriangleOne();
+    numberTriangleTwo();
     
 
     cout << "Hello, World!\n";

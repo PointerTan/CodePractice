@@ -13,9 +13,9 @@
 #include <stdio.h>
 #include <string.h>
 
-int maxV[105][105];
-int data[105][105];
-int n;
+static int maxV[105][105];
+static int data[105][105];
+static int n;
 
 int maxij(int i, int j) {
     if (i == n - 1) {

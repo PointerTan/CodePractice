@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26C842081E8BE93D003B086F /* NumberTriangleTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26C842061E8BE93D003B086F /* NumberTriangleTwo.cpp */; };
 		26D6016B1E8AB1F900C6EE83 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26D6016A1E8AB1F900C6EE83 /* main.cpp */; };
 		26D601751E8AB61B00C6EE83 /* NumberTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 26D601731E8AB61B00C6EE83 /* NumberTriangle.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26C842061E8BE93D003B086F /* NumberTriangleTwo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberTriangleTwo.cpp; sourceTree = "<group>"; };
+		26C842071E8BE93D003B086F /* NumberTriangleTwo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NumberTriangleTwo.hpp; sourceTree = "<group>"; };
 		26D601671E8AB1F900C6EE83 /* liurujia_AlgorithmContest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = liurujia_AlgorithmContest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D6016A1E8AB1F900C6EE83 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		26D601731E8AB61B00C6EE83 /* NumberTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberTriangle.cpp; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 			children = (
 				26D601741E8AB61B00C6EE83 /* NumberTriangle.h */,
 				26D601731E8AB61B00C6EE83 /* NumberTriangle.cpp */,
+				26C842071E8BE93D003B086F /* NumberTriangleTwo.hpp */,
+				26C842061E8BE93D003B086F /* NumberTriangleTwo.cpp */,
 			);
 			path = chapter_nine;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D601751E8AB61B00C6EE83 /* NumberTriangle.cpp in Sources */,
+				26C842081E8BE93D003B086F /* NumberTriangleTwo.cpp in Sources */,
 				26D6016B1E8AB1F900C6EE83 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +266,7 @@
 				26D601701E8AB1F900C6EE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
