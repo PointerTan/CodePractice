@@ -6,6 +6,8 @@
 //  Copyright © 2017年 PT. All rights reserved.
 //
 
+//数字三角形问题的递归解法，通过状态转移方程来计算结果。
+#define main NumberTriangleOne
 #include "NumberTriangle.h"
 
 #include <stdio.h>
@@ -41,7 +43,7 @@ void round(int index) {
     printf("%d\n", maxij(0, 0));
 }
 
-int NumberTriangleOne() {
+int main() {
     int testCount;
     scanf("%d", &testCount);
     for (int i = 0; i < testCount; i++) {
@@ -56,21 +58,21 @@ int NumberTriangleOne() {
 //#include <algorithm>
 //
 //using namespace std;
-//int a[105][105], d[105][105], n;
-//int dfs(int i, int j) {
-//    if(i==n) return a[i][j];
-//    if(d[i][j]!=-1) return d[i][j];
-//    else return d[i][j]=a[i][j]+max(dfs(i+1,j),dfs(i+1,j+1));
+//int input[105][105], result[105][105], n;
+//int maxSum(int i, int j) {
+//    if(i==n) return input[i][j];
+//    if(result[i][j]!=-1) return result[i][j];
+//    else return result[i][j]=input[i][j]+max(maxSum(i+1,j),maxSum(i+1,j+1));
 //}
 //int main() {
 //    scanf("%d", &n);
 //    for(int i=0; i<n; i++){
 //        for (int j=0; j<=i; j++) {
-//            scanf("%d", &a[i][j]);
+//            scanf("%d", &input[i][j]);
 //        }
 //    }
-//
-//    memset(d, -1, sizeof(d));
-//    printf("%d\n", dfs(0, 0));
+//    
+//    memset(result, -1, sizeof(result));
+//    printf("%d\n", maxSum(0, 0));
 //    return 0;
 //}
